@@ -8,7 +8,7 @@ export default function Banner() {
     return (
         <>
             <img
-                src={`${path} ${profilePicture}`}
+                src={`${path}${profilePicture}`}
                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                 alt={name}
             />
