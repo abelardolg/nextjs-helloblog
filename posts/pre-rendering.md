@@ -1,6 +1,6 @@
 ---
 title: 'Feliz julio, Brujitas'
-date: '2020-01-01'
+date: '2020-07-01'
 ---
 <p align="center">
      <img src="https://1.bp.blogspot.com/-ZdSGMTmPmpM/XvvlfYr4huI/AAAAAAAAASM/qcVqae8hDXU3ziaLvDI06B-6KqZNA-0dwCLcBGAsYHQ/s640/feliz%2Bcumplea%25C3%25B1os-va%2Bde%2Bbrujas.gif">
