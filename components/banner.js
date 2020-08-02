@@ -11,7 +11,7 @@ export default function Banner() {
                 width={2000}
                 height={1000}
                 src={`${path}${profilePicture}`}
-                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                className={`${utilStyles.borderCircle}`}
                 alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
