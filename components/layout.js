@@ -30,16 +30,17 @@ export default function Layout({ children, home }) {
            <Banner/>
         ) : (
           <>
-            <Link href="/">
-              <a>
-              <Banner/>
+          <Banner/>
+             {/*<Link href="/">
+             <a>
+              
                {/* <img
                   src={pathProfilePicture}
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
-               />*/}
+               />
               </a>
-            </Link>
+            </Link>*/}
             <h2 className={utilStyles.headingLg}>
               
             </h2>
@@ -50,7 +51,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Regresar a la portada principal</a>
           </Link>
         </div>
       )}
