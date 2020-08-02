@@ -1,8 +1,9 @@
 // Add this line to imports
-import Date from '../../components/date'
 import { getAllPostIds, getPostData } from '../../lib/postsMD'
 import Head from 'next/head'
 import Layout from '../../components/layout'
+import PublishedBy from '../../components/publishedBy'
+import Reactions from '../../components/reactions'
 import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {
@@ -13,10 +14,9 @@ export default function Post({ postData }) {
         </Head>
         <article>
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-          <div className={utilStyles.lightText}>
-            <Date dateString={postData.date} />
-          </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <PublishedBy date={postData.date}/>
+          <Reactions/>
         </article>
       </Layout>
     )
