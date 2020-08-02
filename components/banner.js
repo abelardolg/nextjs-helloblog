@@ -8,8 +8,8 @@ export default function Banner() {
     return (
         <>
             <img
-                width={2000}
-                height={1000}
+                width={500}
+                height={500}
                 src={`${path}${profilePicture}`}
                 className={`${utilStyles.borderCircle}`}
                 alt={name}
